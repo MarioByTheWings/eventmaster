@@ -1,10 +1,18 @@
+# Entornos y caché
 __pycache__/
 .venv/
-.env
+*.pyc
+
+# Base de datos local
 *.db
+
+# Variables de entorno (credenciales)
+.env
+
+# IDEs
 .vscode/
 .idea/
-*.pyc
+
+# Archivos del proyecto no necesarios en el repo
 README.md
-18 - FastAPI.pdf
-Tarea - FastAPI EventMaster.pdf
+*.pdf
